@@ -13,5 +13,11 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
-let displayJohnProfile = await getJohnProfile();
-console.log(displayJohnProfile);
+async function displayJohn() {
+  let displayJohnProfile = await getJohnProfile();
+  console.log(displayJohnProfile);
+}
+displayJohn();
+// let displayJohnProfile = await getJohnProfile();
+// console.log(displayJohnProfile);
+console.log(2);
