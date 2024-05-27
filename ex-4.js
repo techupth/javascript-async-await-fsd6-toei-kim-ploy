@@ -20,4 +20,3 @@ async function displayJohn() {
 displayJohn();
 // let displayJohnProfile = await getJohnProfile();
 // console.log(displayJohnProfile);
-console.log(2);
