@@ -32,4 +32,15 @@ let getJohnOrders = () => {
   });
 };
 
+let num = 0;
 // Start coding here
+let displayJohnProfile = (data) => {
+  console.log(data);
+};
+let displayJohnOrders = (data) => {
+  console.log(data);
+};
+getJohnProfile()
+  .then(displayJohnProfile)
+  .then(getJohnOrders)
+  .then(displayJohnOrders);
