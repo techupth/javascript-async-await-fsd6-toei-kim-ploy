@@ -13,3 +13,5 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+let displayJohnProfile = await getJohnProfile();
+console.log(displayJohnProfile);
